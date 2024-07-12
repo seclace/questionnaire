@@ -1,0 +1,9 @@
+.navbar {
+    border-bottom: 1px solid;
+    margin-bottom: 20px;
+}
+.navbar a {
+    display: inline-block;
+    padding: 20px;
+    background: #61dafb;
+}

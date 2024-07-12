@@ -1,0 +1,1048 @@
+[
+    {
+        "model": "quizzes.quiz",
+        "pk": 1,
+        "fields": {
+            "title": "General Knowledge Quiz",
+            "steps": 3
+        }
+    },
+    {
+        "model": "quizzes.quiz",
+        "pk": 2,
+        "fields": {
+            "title": "Science Quiz",
+            "steps": 2
+        }
+    },
+    {
+        "model": "quizzes.quiz",
+        "pk": 3,
+        "fields": {
+            "title": "History Quiz",
+            "steps": 4
+        }
+    },
+    {
+        "model": "quizzes.quiz",
+        "pk": 4,
+        "fields": {
+            "title": "Math Quiz",
+            "steps": 6
+        }
+    },
+    {
+        "model": "quizzes.quiz",
+        "pk": 5,
+        "fields": {
+            "title": "School Subjects Quiz",
+            "steps": 4
+        }
+    },
+    {
+        "model": "quizzes.question",
+        "pk": 1,
+        "fields": {
+            "question_text": "What is the capital of France?",
+            "type": "RA",
+            "step": 1,
+            "quiz": 1
+        }
+    },
+    {
+        "model": "quizzes.question",
+        "pk": 2,
+        "fields": {
+            "question_text": "Select the programming languages you know.",
+            "type": "CH",
+            "step": 2,
+            "quiz": 1
+        }
+    },
+    {
+        "model": "quizzes.question",
+        "pk": 3,
+        "fields": {
+            "question_text": "What is the largest ocean on Earth?",
+            "type": "RA",
+            "step": 3,
+            "quiz": 1
+        }
+    },
+    {
+        "model": "quizzes.question",
+        "pk": 4,
+        "fields": {
+            "question_text": "What is the currency of Japan?",
+            "type": "RA",
+            "step": 2,
+            "quiz": 1
+        }
+    },
+    {
+        "model": "quizzes.question",
+        "pk": 5,
+        "fields": {
+            "question_text": "Which planet is known as the Red Planet?",
+            "type": "RA",
+            "step": 3,
+            "quiz": 1
+        }
+    },
+    {
+        "model": "quizzes.question",
+        "pk": 6,
+        "fields": {
+            "question_text": "Who painted the Mona Lisa?",
+            "type": "RA",
+            "step": 3,
+            "quiz": 1
+        }
+    },
+    {
+        "model": "quizzes.question",
+        "pk": 7,
+        "fields": {
+            "question_text": "Which is the smallest continent by land area?",
+            "type": "RA",
+            "step": 3,
+            "quiz": 1
+        }
+    },
+    {
+        "model": "quizzes.question",
+        "pk": 8,
+        "fields": {
+            "question_text": "How many planets are in the Solar System?",
+            "type": "NU",
+            "step": 1,
+            "quiz": 2
+        }
+    },
+    {
+        "model": "quizzes.question",
+        "pk": 9,
+        "fields": {
+            "question_text": "Who was the first President of the United States?",
+            "type": "RA",
+            "step": 1,
+            "quiz": 3
+        }
+    },
+    {
+        "model": "quizzes.question",
+        "pk": 10,
+        "fields": {
+            "question_text": "In which year did World War II end?",
+            "type": "NU",
+            "step": 2,
+            "quiz": 3
+        }
+    },
+    {
+        "model": "quizzes.question",
+        "pk": 11,
+        "fields": {
+            "question_text": "Who wrote 'The Odyssey'?",
+            "type": "RA",
+            "step": 3,
+            "quiz": 3
+        }
+    },
+    {
+        "model": "quizzes.question",
+        "pk": 12,
+        "fields": {
+            "question_text": "Who was the first female Prime Minister of the United Kingdom?",
+            "type": "RA",
+            "step": 4,
+            "quiz": 3
+        }
+    },
+    {
+        "model": "quizzes.question",
+        "pk": 13,
+        "fields": {
+            "question_text": "In which year did the Titanic sink?",
+            "type": "NU",
+            "step": 4,
+            "quiz": 3
+        }
+    },
+    {
+        "model": "quizzes.question",
+        "pk": 14,
+        "fields": {
+            "question_text": "Who was known as the 'Iron Lady'?",
+            "type": "RA",
+            "step": 4,
+            "quiz": 3
+        }
+    },
+    {
+        "model": "quizzes.question",
+        "pk": 15,
+        "fields": {
+            "question_text": "What is the square root of 64?",
+            "type": "NU",
+            "step": 1,
+            "quiz": 4
+        }
+    },
+    {
+        "model": "quizzes.question",
+        "pk": 16,
+        "fields": {
+            "question_text": "What is the value of Pi (π) to two decimal places?",
+            "type": "NU",
+            "step": 2,
+            "quiz": 4
+        }
+    },
+    {
+        "model": "quizzes.question",
+        "pk": 17,
+        "fields": {
+            "question_text": "What is 5 + 3?",
+            "type": "NU",
+            "step": 3,
+            "quiz": 4
+        }
+    },
+    {
+        "model": "quizzes.question",
+        "pk": 18,
+        "fields": {
+            "question_text": "What is 12 - 7?",
+            "type": "NU",
+            "step": 4,
+            "quiz": 4
+        }
+    },
+    {
+        "model": "quizzes.question",
+        "pk": 19,
+        "fields": {
+            "question_text": "What is 9 * 7?",
+            "type": "NU",
+            "step": 1,
+            "quiz": 4
+        }
+    },
+    {
+        "model": "quizzes.question",
+        "pk": 20,
+        "fields": {
+            "question_text": "What is the derivative of x^2?",
+            "type": "IN",
+            "step": 2,
+            "quiz": 4
+        }
+    },
+    {
+        "model": "quizzes.question",
+        "pk": 21,
+        "fields": {
+            "question_text": "What is 10 / 2?",
+            "type": "RA",
+            "step": 3,
+            "quiz": 4
+        }
+    },
+    {
+        "model": "quizzes.question",
+        "pk": 22,
+        "fields": {
+            "question_text": "What is 3 * 3?",
+            "type": "RA",
+            "step": 4,
+            "quiz": 4
+        }
+    },
+    {
+        "model": "quizzes.question",
+        "pk": 23,
+        "fields": {
+            "question_text": "What is 7 + 8?",
+            "type": "RA",
+            "step": 5,
+            "quiz": 4
+        }
+    },
+    {
+        "model": "quizzes.question",
+        "pk": 24,
+        "fields": {
+            "question_text": "What is 20 - 5?",
+            "type": "RA",
+            "step": 6,
+            "quiz": 4
+        }
+    },
+    {
+        "model": "quizzes.question",
+        "pk": 25,
+        "fields": {
+            "question_text": "Which subjects are part of the STEM curriculum?",
+            "type": "CH",
+            "step": 1,
+            "quiz": 5
+        }
+    },
+    {
+        "model": "quizzes.question",
+        "pk": 26,
+        "fields": {
+            "question_text": "What is the powerhouse of the cell?",
+            "type": "RA",
+            "step": 2,
+            "quiz": 5
+        }
+    },
+    {
+        "model": "quizzes.question",
+        "pk": 27,
+        "fields": {
+            "question_text": "Solve the equation: 3x - 2 = 7.",
+            "type": "IN",
+            "step": 3,
+            "quiz": 5
+        }
+    },
+    {
+        "model": "quizzes.question",
+        "pk": 28,
+        "fields": {
+            "question_text": "How many states are there in the United States?",
+            "type": "NU",
+            "step": 4,
+            "quiz": 5
+        }
+    },
+    {
+        "model": "quizzes.correctanswer",
+        "pk": 1,
+        "fields": {
+            "content": "",
+            "question": 1
+        }
+    },
+    {
+        "model": "quizzes.correctanswer",
+        "pk": 2,
+        "fields": {
+            "content": "",
+            "question": 3
+        }
+    },
+    {
+        "model": "quizzes.correctanswer",
+        "pk": 3,
+        "fields": {
+            "content": "",
+            "question": 4
+        }
+    },
+    {
+        "model": "quizzes.correctanswer",
+        "pk": 4,
+        "fields": {
+            "content": "",
+            "question": 5
+        }
+    },
+    {
+        "model": "quizzes.correctanswer",
+        "pk": 5,
+        "fields": {
+            "content": "",
+            "question": 6
+        }
+    },
+    {
+        "model": "quizzes.correctanswer",
+        "pk": 6,
+        "fields": {
+            "content": "",
+            "question": 7
+        }
+    },
+    {
+        "model": "quizzes.correctanswer",
+        "pk": 7,
+        "fields": {
+            "content": "8",
+            "question": 8
+        }
+    },
+    {
+        "model": "quizzes.correctanswer",
+        "pk": 8,
+        "fields": {
+            "content": "",
+            "question": 9
+        }
+    },
+    {
+        "model": "quizzes.correctanswer",
+        "pk": 9,
+        "fields": {
+            "content": "1945",
+            "question": 10
+        }
+    },
+    {
+        "model": "quizzes.correctanswer",
+        "pk": 10,
+        "fields": {
+            "content": "",
+            "question": 11
+        }
+    },
+    {
+        "model": "quizzes.correctanswer",
+        "pk": 11,
+        "fields": {
+            "content": "",
+            "question": 12
+        }
+    },
+    {
+        "model": "quizzes.correctanswer",
+        "pk": 12,
+        "fields": {
+            "content": "1912",
+            "question": 13
+        }
+    },
+    {
+        "model": "quizzes.correctanswer",
+        "pk": 13,
+        "fields": {
+            "content": "",
+            "question": 14
+        }
+    },
+    {
+        "model": "quizzes.correctanswer",
+        "pk": 14,
+        "fields": {
+            "content": "8",
+            "question": 15
+        }
+    },
+    {
+        "model": "quizzes.correctanswer",
+        "pk": 15,
+        "fields": {
+            "content": "3.14",
+            "question": 16
+        }
+    },
+    {
+        "model": "quizzes.correctanswer",
+        "pk": 16,
+        "fields": {
+            "content": "8",
+            "question": 17
+        }
+    },
+    {
+        "model": "quizzes.correctanswer",
+        "pk": 17,
+        "fields": {
+            "content": "5",
+            "question": 18
+        }
+    },
+    {
+        "model": "quizzes.correctanswer",
+        "pk": 18,
+        "fields": {
+            "content": "63",
+            "question": 19
+        }
+    },
+    {
+        "model": "quizzes.correctanswer",
+        "pk": 19,
+        "fields": {
+            "content": "2x",
+            "question": 20
+        }
+    },
+    {
+        "model": "quizzes.correctanswer",
+        "pk": 20,
+        "fields": {
+            "content": "5",
+            "question": 21
+        }
+    },
+    {
+        "model": "quizzes.correctanswer",
+        "pk": 21,
+        "fields": {
+            "content": "9",
+            "question": 22
+        }
+    },
+    {
+        "model": "quizzes.correctanswer",
+        "pk": 22,
+        "fields": {
+            "content": "15",
+            "question": 23
+        }
+    },
+    {
+        "model": "quizzes.correctanswer",
+        "pk": 23,
+        "fields": {
+            "content": "15",
+            "question": 24
+        }
+    },
+    {
+        "model": "quizzes.correctanswer",
+        "pk": 24,
+        "fields": {
+            "content": "Science, Technology, Engineering, Mathematics",
+            "question": 25
+        }
+    },
+    {
+        "model": "quizzes.correctanswer",
+        "pk": 25,
+        "fields": {
+            "content": "Mitochondria",
+            "question": 26
+        }
+    },
+    {
+        "model": "quizzes.correctanswer",
+        "pk": 26,
+        "fields": {
+            "content": "x = 3",
+            "question": 27
+        }
+    },
+    {
+        "model": "quizzes.correctanswer",
+        "pk": 27,
+        "fields": {
+            "content": "50",
+            "question": 28
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 1,
+        "fields": {
+            "content": "Paris",
+            "question": 1,
+            "correct_answer": 1,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 2,
+        "fields": {
+            "content": "London",
+            "question": 1,
+            "correct_answer": null,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 3,
+        "fields": {
+            "content": "Berlin",
+            "question": 1,
+            "correct_answer": null,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 4,
+        "fields": {
+            "content": "Python",
+            "question": 2,
+            "correct_answer": null,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 5,
+        "fields": {
+            "content": "JavaScript",
+            "question": 2,
+            "correct_answer": null,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 6,
+        "fields": {
+            "content": "Java",
+            "question": 2,
+            "correct_answer": null,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 7,
+        "fields": {
+            "content": "Pacific Ocean",
+            "question": 3,
+            "correct_answer": 2,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 8,
+        "fields": {
+            "content": "Atlantic Ocean",
+            "question": 3,
+            "correct_answer": null,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 9,
+        "fields": {
+            "content": "Indian Ocean",
+            "question": 3,
+            "correct_answer": null,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 10,
+        "fields": {
+            "content": "Yen",
+            "question": 4,
+            "correct_answer": 3,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 11,
+        "fields": {
+            "content": "Dollar",
+            "question": 4,
+            "correct_answer": null,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 12,
+        "fields": {
+            "content": "Euro",
+            "question": 4,
+            "correct_answer": null,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 13,
+        "fields": {
+            "content": "Mars",
+            "question": 5,
+            "correct_answer": 4,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 14,
+        "fields": {
+            "content": "Venus",
+            "question": 5,
+            "correct_answer": null,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 15,
+        "fields": {
+            "content": "Jupiter",
+            "question": 5,
+            "correct_answer": null,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 16,
+        "fields": {
+            "content": "Leonardo da Vinci",
+            "question": 6,
+            "correct_answer": 5,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 17,
+        "fields": {
+            "content": "Pablo Picasso",
+            "question": 6,
+            "correct_answer": null,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 18,
+        "fields": {
+            "content": "Vincent van Gogh",
+            "question": 6,
+            "correct_answer": null,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 19,
+        "fields": {
+            "content": "Australia",
+            "question": 7,
+            "correct_answer": 6,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 20,
+        "fields": {
+            "content": "Antarctica",
+            "question": 7,
+            "correct_answer": null,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 21,
+        "fields": {
+            "content": "Africa",
+            "question": 7,
+            "correct_answer": null,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 22,
+        "fields": {
+            "content": "George Washington",
+            "question": 9,
+            "correct_answer": 8,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 23,
+        "fields": {
+            "content": "Abraham Lincoln",
+            "question": 9,
+            "correct_answer": null,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 24,
+        "fields": {
+            "content": "Thomas Jefferson",
+            "question": 9,
+            "correct_answer": null,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 25,
+        "fields": {
+            "content": "Homer",
+            "question": 11,
+            "correct_answer": 10,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 26,
+        "fields": {
+            "content": "Virgil",
+            "question": 11,
+            "correct_answer": null,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 27,
+        "fields": {
+            "content": "Margaret Thatcher",
+            "question": 12,
+            "correct_answer": 11,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 28,
+        "fields": {
+            "content": "Theresa May",
+            "question": 12,
+            "correct_answer": null,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 29,
+        "fields": {
+            "content": "Winston Churchill",
+            "question": 12,
+            "correct_answer": null,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 30,
+        "fields": {
+            "content": "Margaret Thatcher",
+            "question": 14,
+            "correct_answer": 13,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 31,
+        "fields": {
+            "content": "Queen Elizabeth II",
+            "question": 14,
+            "correct_answer": null,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 32,
+        "fields": {
+            "content": "Angela Merkel",
+            "question": 14,
+            "correct_answer": null,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 33,
+        "fields": {
+            "content": "5",
+            "question": 21,
+            "correct_answer": 20,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 34,
+        "fields": {
+            "content": "3",
+            "question": 21,
+            "correct_answer": null,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 35,
+        "fields": {
+            "content": "4",
+            "question": 21,
+            "correct_answer": null,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 36,
+        "fields": {
+            "content": "9",
+            "question": 22,
+            "correct_answer": 21,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 37,
+        "fields": {
+            "content": "6",
+            "question": 22,
+            "correct_answer": null,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 38,
+        "fields": {
+            "content": "12",
+            "question": 22,
+            "correct_answer": null,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 39,
+        "fields": {
+            "content": "15",
+            "question": 23,
+            "correct_answer": 22,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 40,
+        "fields": {
+            "content": "12",
+            "question": 23,
+            "correct_answer": null,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 41,
+        "fields": {
+            "content": "10",
+            "question": 23,
+            "correct_answer": null,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 42,
+        "fields": {
+            "content": "15",
+            "question": 24,
+            "correct_answer": 23,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 43,
+        "fields": {
+            "content": "18",
+            "question": 24,
+            "correct_answer": null,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 44,
+        "fields": {
+            "content": "12",
+            "question": 24,
+            "correct_answer": null,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 45,
+        "fields": {
+            "content": "Science",
+            "question": 25,
+            "correct_answer": 24,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 46,
+        "fields": {
+            "content": "Technology",
+            "question": 25,
+            "correct_answer": 24,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 47,
+        "fields": {
+            "content": "Engineering",
+            "question": 25,
+            "correct_answer": 24,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 48,
+        "fields": {
+            "content": "Mathematics",
+            "question": 25,
+            "correct_answer": 24,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 49,
+        "fields": {
+            "content": "Mitochondria",
+            "question": 26,
+            "correct_answer": 25,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 50,
+        "fields": {
+            "content": "Nucleus",
+            "question": 26,
+            "correct_answer": null,
+            "answers": []
+        }
+    },
+    {
+        "model": "quizzes.questionchoice",
+        "pk": 51,
+        "fields": {
+            "content": "Ribosome",
+            "question": 26,
+            "correct_answer": null,
+            "answers": []
+        }
+    }
+]

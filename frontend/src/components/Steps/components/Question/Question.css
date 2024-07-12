@@ -1,0 +1,36 @@
+.question {
+    margin-top: 20px;
+}
+
+.question-text {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.question-body {
+}
+
+.question-input {
+    margin-right: 10px;
+}
+.question-input.correct {
+    background: aquamarine;
+}
+.question-input.incorrect {
+    color: white;
+    background: indianred;
+}
+
+.question-choice {
+    margin-right: 10px;
+    cursor: pointer;
+}
+.question-choice.correct {
+    background: aquamarine;
+}
+.question-choice.incorrect {
+    color: indianred;
+    border-bottom: 1px solid indianred;
+}
+.question-choice input {
+    cursor: pointer;
+}
